@@ -19,3 +19,4 @@ Stable Diffusion などの画像生成 AI を WEB UI 上で試すことのでき
 - VAE やその他の機能利用のために他フォルダにアクセスする必要がある場合
   -  `docker-run.bat` の実行の前にあらかじめ行を追加し指定しておく
   -  もしくは一度 model フォルダに配置し CLI で移動させる
+- WSL と model ファイルの Import を考慮しなるべく同じ Volume 上に配置するのがいよい
